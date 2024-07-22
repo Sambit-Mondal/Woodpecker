@@ -1,4 +1,5 @@
 import React from 'react'
+import { UserCircleIcon } from '@heroicons/react/24/solid';
 
 function Navbar() {
     return (
@@ -11,7 +12,9 @@ function Navbar() {
                 <div>
                     <button className='bg-white text-black font-semibold text-sm lg:text-md lg:font-bold p-2 px-3 lg:px-5 rounded-sm transition duration-150 ease-in-out hover:bg-[#5b5b5b] hover:text-white hover:-translate-y-1'>After Disaster</button>
                 </div>
-                <div className='bg-white rounded-full size-9'></div>
+                <div>
+                    <UserCircleIcon className='size-11 text-white' />
+                </div>
             </div>
         </div>
     )
